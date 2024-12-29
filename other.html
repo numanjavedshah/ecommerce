@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="brand">
+            <!-- Menu icon: Visible only on small screens -->
+            <i class="fas fa-bars navbar-menu-icon"></i>
+            <img src="logo.png" alt="Brand Logo">
+            <span>Brand</span>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search">
+            <select>
+                <option>All category</option>
+                <option>Garments</option>
+                <option>Shoes</option>
+            </select>
+            <button>Search</button>
+        </div>
+        <div class="menu">
+            <div class="menu-item"><i class="fas fa-user"></i> Profile</div>
+            <div class="menu-item"><i class="fas fa-envelope"></i> Message</div>
+            <div class="menu-item"><i class="fas fa-heart"></i> Orders</div>
+            <div class="menu-item"><i class="fas fa-shopping-cart"></i> My Cart</div>
+        </div>
+        <!-- Small screen icons -->
+        <div class="mobile-menu-icons">
+            <i class="fas fa-user"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </div>
+
+    <!-- Mobile-only search bar -->
+    <div class="mobile-full-search-bar">
+        <input class="mobile-full-search-input" type="text" placeholder="Search...">
+    </div>
+
+    <!-- Mobile-only scrollable buttons -->
+    <div class="mobile-scroll-buttons">
+        <button class="mobile-scroll-btn">Garments</button>
+        <button class="mobile-scroll-btn">Shoes</button>
+        <button class="mobile-scroll-btn">Accessories</button>
+        <button class="mobile-scroll-btn">Electronics</button>
+        <button class="mobile-scroll-btn">See All</button>
+    </div>
+
+    <!-- navbar 2 on this page -->
+    <div class="nav-bar-unique-123">
+        <div class="nav-section-left-abc">
+            <a href="#" class="nav-link-unique-456">☰ All category</a>
+            <a href="#" class="nav-link-unique-456">Hot offers</a>
+            <a href="#" class="nav-link-unique-456">Gift boxes</a>
+            <a href="#" class="nav-link-unique-456">Projects</a>
+            <a href="#" class="nav-link-unique-456">Menu item</a>
+            <a href="#" class="nav-link-unique-456">Help </a>
+        </div>
+        <div class="nav-section-right-xyz">
+            <select class="dropdown-select-unique">
+                <option>English, USD</option>
+                <option>English, EUR</option>
+                <option>French, EUR</option>
+                <option>Spanish, USD</option>
+                <option>German, EUR</option>
+            </select>
+            <select class="dropdown-select-unique">
+                <option>Ship to Germany</option>
+                <option>Ship to United States</option>
+                <option>Ship to Canada</option>
+                <option>Ship to France</option>
+                <option>Ship to Spain</option>
+                <option>Ship to Australia</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- startinf of main page -->
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Automobiles</a></li>
+                <li><a href="#">Clothes and wear</a></li>
+                <li><a href="#">Home interiors</a></li>
+                <li><a href="#">Computer and tech</a></li>
+                <li><a href="#">Tools, equipments</a></li>
+                <li><a href="#">Sports and outdoor</a></li>
+                <li><a href="#">Animal and pets</a></li>
+                <li><a href="#">Machinery tools</a></li>
+                <li><a href="#">More category</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2>Latest trending <br><strong>Electronic items</strong></h2>
+            <button>Learn more</button>
+        </div>
+        <div class="sidebar-right">
+            <div class="card">
+                <img src="user.jpeg" alt="User Info">
+                <p>Hi, user<br>let's get started</p>
+                <button>Join now</button>
+                <button class="btn22">Log in</button>
+            </div>
+            <div class="card11">
+                <p>Get US $10 off<br>with a new supplier</p>
+            </div>
+            <div class="card22">
+                <p>Send quotes with<br>supplier preferences</p>
+            </div>
+        </div>
+    </div>
+
+<!-- offer and discont part -->
+<div class="deals-container">
+    <div class="heading">
+        <h1>Deals and Offers</h1>
+        <p>Hurry up! </p>
+    </div>  
+    <div class="deals-row">
+        <div class="countdown" id="countdown">
+                <div>
+                <span id="days">04</span> Days
+            </div>
+            <div>
+                <span id="hours">13</span> Hours
+            </div>
+            <div>
+                <span id="minutes">34</span> Minutes
+            </div>
+            <div>
+                <span id="seconds">56</span> Seconds
+            </div>
+        </div>
+        <div class="offers">
+            <div class="offer">
+                <img src="watch.png" alt="Smart Watches">
+                <p>Smart Watches</p>
+                <p class="discount">-25%</p>
+            </div>
+            <div class="offer">
+                <img src="laptop.png" alt="Laptops">
+                <p>Laptops</p>
+                <p class="discount">-15%</p>
+            </div>
+            <div class="offer">
+                <img src="camera.png" alt="GoPro Cameras">
+                <p>GoPro Cameras</p>
+                <p class="discount">-40%</p>
+            </div>
+            <div class="offer">
+                <img src="headphone.png" alt="Headphones">
+                <p>Headphones</p>
+                <p class="discount">-25%</p>
+            </div>
+            <div class="offer">
+                <img src="phone.png" alt="Canon Cameras">
+                <p>Canon Cameras</p>
+                <p class="discount">-25%</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
